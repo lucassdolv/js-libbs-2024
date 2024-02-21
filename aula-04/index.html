@@ -1,31 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+ 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Forms</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Forms</title>
 </head>
+ 
 <body>
+  <div class="title">
     <h3>Aula 04 - Formulários</h3>
-
-<div>
-  <form>
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Seu nome..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Seu sobrenome..">
-
-    <label for="country">País</label>
-    <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
-  
-    <input type="submit" value="Submit">
-  </form>
-</div>
+  </div>
+  <div class="form">
+    <form>
+      <label for="fname">Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Seu nome..">
+ 
+      <label for="adress">Adress</label>
+      <input type="text" id="adress" name="adress" placeholder="Seu endereço..">
+ 
+      <label for="email">Email address</label>
+      <input type="email" id="email" name="email" placeholder="Seu endereço de e-mail..">
+ 
+      <label for="phone">Phone</label>
+      <input type="text" id="phone" name="phone" placeholder="Seu telefone..">
+ 
+ 
+ 
+ 
+      <input id="btn" type="submit" value="Submit">
+    </form>
+  </div>
+  <script src="script.js"></script>
 </body>
+ 
 </html>
