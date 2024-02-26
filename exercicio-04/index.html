@@ -4,27 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Cadastro</title>
+    <title>Estoque</title>
 </head>
 <body>
     <header class="cabecalho">
-        <div class="logo"><img src="imagens/logo03.png" alt=""></div>
-        <div class="menu">
-            <a href="">HOMENEWS</a>
-            <a href="">TRANSFERNEWS</a>
-            <a href="">ABOUT US</a>
-            <a href="">CONTACT US</a>
+        <div class="img-logo">
+            <img src="imagens/LogoController.png" alt="">
         </div>
-        <div class="sign">
+        <div class="titulo">
+            <h1>Controle de Estoque</h1>
+        </div>
+        <div class="cadastro">
             <a href="">sign up</a>
-            <a href="">sign on</a>
+            <a href="">sign in</a>
         </div>
     </header>
     <main>
-        <div>
-            
-        </div>
+        <form class="form-controller" action="">
+            <div class="cases">
+                <label for="produto">Produto:</label>
+                <input name="produto" id="produto" type="text">
+            </div>
+            <div class="cases">
+                <label for="qntd">Quantidade:</label>
+                <input name="qntd" id="qntd" type="text">
+            </div>
+            <div class="cases">
+                <label for="user">Usuario Responsavel:</label>
+                <input name="user" id="user" type="text">
+            </div>
+            <button id="btn" type="submit">Enviar</button>
+        </form>
     </main>
     
+
+    <script src="script.js"></script>
 </body>
 </html>
