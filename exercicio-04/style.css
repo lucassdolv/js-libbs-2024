@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho {
+    height: 120px;
+    width: 100%;
+    background-color: snow;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+}
+.logo {
+    height: 100%;
+    width: 240px;
+}
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+.menu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    justify-content: space-around;
+
+}
+.menu a {
+    text-decoration: none;
+    color: red;
+    margin: 15px;
+}
+.sign {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 40px;
+}
+.sign a {
+    text-decoration: none;
+}
